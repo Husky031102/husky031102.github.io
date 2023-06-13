@@ -1,13 +1,13 @@
 ---
-title: 利用wsl完成Ubuntu下深度学习环境安装
+title: 【环境配置】利用wsl完成Ubuntu下深度学习环境安装
 date: 2023-05-07 00:00:00 +0800
 img_path: /assets/img/md
 categories: [记录, 环境搭建]
-tags: [记录，环境搭建]     # TAG names should always be lowercase
+tags: [记录, 环境搭建]     # TAG names should always be lowercase
 ---
-按照常规方案，我们首先安装ubuntu双系统，依照以下教程可自行完成  
+按照常规方案，我们需要首先安装ubuntu做个双系统，这种方法依照以下教程可自行完成    
 [Windows 和 Ubuntu 双系统的安装和卸载](https://www.bilibili.com/video/BV1554y1n7zv/?share_source=copy_web&vd_source=b70d2d828fe907ea790f92edff598b54)  
-基于ubuntu的环境配置较为简易，读者可自行寻找教程安装  
+利用双系统配置ubuntu的环境配置较为简易，读者可自行寻找教程安装   
 考虑到双系统切换起来可能造成一定麻烦，同时Linux系统本身不适合日常使用与娱乐，在轻度使用条件下较为不便，而普通虚拟机虽然方便安全，在性能上却损失较多，笔者本次尝试使用wsl2来配置ubuntu环境，其优势在于可以通过vscode进行便捷的访问操控linux文件，还能够有效的协同windows文件  
 虽说wsl2本质上是一个虚拟机的性质，但是其性能损耗几乎可以无视，对日常使用而言已经足够，开个玩笑说windows正在向最好的linux发行版迈进也不为过  
 其安装过程较为简易，但是对C盘空间需求较大，请读者提前注意，其本质上可以看做对系统功能的一个拓展，所以尝试将其移动到其他位置可能造成各种奇怪的影响，为方便期间本文按照默认操作进行，总共花费约50G+空间，如果系统盘空间紧缺可在安装完成系统后参照下图自行尝试，安装系统约莫需要10G空间  

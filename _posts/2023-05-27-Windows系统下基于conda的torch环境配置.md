@@ -1,9 +1,9 @@
 ---
-title: Windows系统下基于conda的torch环境配置
+title: 【环境配置】Windows系统下基于conda的torch环境配置
 date: 2023-05-27 00:00:00 +0800
 img_path: /assets/img/md
 categories: [记录, 环境搭建]
-tags: [记录，环境搭建]     # TAG names should always be lowercase
+tags: [记录, 环境搭建]     # TAG names should always be lowercase
 ---
 ## conda配置
 看过我上一篇教程的应该对conda不陌生了吧，我们在写python的时候可以利用它轻松地做到环境配置和管理，能让我们专心于程序的编写与算法的实现，配合命令行的使用几乎可以做到一键安装，起飞~  
