@@ -131,8 +131,8 @@ roscore
 ```shell
 rosrun my_package talker
 ```
-可以看到我们的代码正常工作了 
-![2023-09-17-利用Clion在WSL下进行ROS开发-talker正常工作](2023-09-17-利用Clion在WSL下进行ROS开发-talker正常工作.png)  
+可以看到我们的代码正常工作了   
+![2023-09-17-利用Clion在WSL下进行ROS开发-talker正常工作](2023-09-17-利用Clion在WSL下进行ROS开发-talker正常工作.png)    
 订阅者`listener`同理，代码见下，编译方法就留给读者自己实验了    
 ```cpp
 //  
