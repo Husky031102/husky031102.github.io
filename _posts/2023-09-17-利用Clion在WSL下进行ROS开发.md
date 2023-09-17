@@ -118,8 +118,8 @@ add_executable(talker src/talker.cpp)
 target_link_libraries(talker ${catkin_LIBRARIES})
 ```
 `add_executable(talker src/talker.cpp)`的含义是添加一个名为`talker`的可执行文件，该文件由`src/talker.cpp`源文件编译而成  
-`target_link_libraries(talker ${catkin_LIBRARIES})`意味着将`catkin_LIBRARIES`变量中的所有库链接到名为`talker`的目标上。`catkin_LIBRARIES`变量通常包含一系列库文件的路径，这些库文件是在catkin构建系统中定义的。所以，这意味着你的`talker`可执行文件或者库将会链接到这些库中  
-点击右上角的锤子尝试构建`talker`
+`target_link_libraries(talker ${catkin_LIBRARIES})`意味着将`catkin_LIBRARIES`变量中的所有库链接到名为`talker`的目标上。`catkin_LIBRARIES`变量通常包含一系列库文件的路径，这些库文件是在catkin构建系统中定义的。所以，这意味着你的`talker`可执行文件或者库将会链接到这些库中   
+点击右上角的锤子尝试构建`talker`  
 ![2023-09-17-利用Clion在WSL下进行ROS开发-尝试编译](2023-09-17-利用Clion在WSL下进行ROS开发-尝试编译.png)
 可以看到成功的构建并链接到了库中  
 ![2023-09-17-利用Clion在WSL下进行ROS开发-成功编译](2023-09-17-利用Clion在WSL下进行ROS开发-成功编译.png)
