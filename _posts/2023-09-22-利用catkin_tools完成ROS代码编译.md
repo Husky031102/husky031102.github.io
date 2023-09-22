@@ -10,12 +10,17 @@ tags:
   - 工具使用
 ---
 现在介绍一种使用catkin tools来轻松构建ROS代码构建的方法   
-不涉及到任何IDE的使用，你可以选择任意你喜欢的文本编辑器  
+环境为ubuntu20.04.6 LTS  
+不涉及到任何IDE的使用，你可以选择任意你喜欢的文本编辑器   
 即使是记事本  
 官网如下  
 [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/installing.html)  
 ## catkin tools 安装  
-鱼香ROS提供的安装环境已包括catkin tools的整合，此处不多赘述   
+鱼香ROS提供的安装环境已包括catkin tools的整合，此处不多赘述  
+可通过以下指令安装鱼香ROS  
+```bash
+wget http://fishros.com/install -O fishros && . fishros
+```
 ## 工作空间创建
 首先创建工作空间与对应资源文件夹并进入    
 ```shell
