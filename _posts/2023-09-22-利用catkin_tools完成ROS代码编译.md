@@ -18,7 +18,7 @@ tags:
 ## catkin tools 安装  
 鱼香ROS提供的安装环境已包括catkin tools的整合，此处不多赘述  
 可通过以下指令安装鱼香ROS  
-```bash
+```shell
 wget http://fishros.com/install -O fishros && . fishros
 ```
 ## 工作空间创建
@@ -149,7 +149,7 @@ int main(int argc, char **argv)
     return 0;  
 }
 ```
-### msg文件编译
+## msg文件编译
 TODO
 
 
