@@ -15,7 +15,7 @@ tags:
 [WSL2 | CLion Documentation](https://www.jetbrains.com/help/clion/how-to-use-wsl-development-environment-in-product.html)  
 在Clion中打开设置页，选择构建，执行，部署，选择工具链，新建WSL工具链并设为默认工具链  
 ![2023-09-17-利用Clion在WSL下进行ROS开发-Clion设置WSL工具链](2023-09-17-利用Clion在WSL下进行ROS开发-Clion设置WSL工具链.png)  
-如果你选择使用默认的CMAKE，那么正常的使用生成，运行和调试，享受现代化IDE的快乐吧  
+如果你选择使用默认的CMake，那么正常的使用生成，运行和调试，享受现代化IDE的快乐吧  
 ## Clion配置WSL下ROS开发环境
 ### 环境配置
 参考以下  
@@ -48,6 +48,7 @@ echo $ROS_PACKAGE_PATH
 将以下指令中的`<your_WorkSpace>`替换为你自己的工作目录的完整路径即可  
 ```shell
 echo "source /<your_WorkSpace>/devel/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 ```
 这样就不用每次打开终端都手动输入指令了  
 接下来我们进入`src`文件夹创建功能包，这里我们创建一个叫做`my_package`的功能包，其中包括了`roscpp`，`rospy`，`std_msgs`等库  

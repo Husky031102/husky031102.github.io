@@ -1,13 +1,17 @@
 ---
-title: 【环境配置】Windoes下使用VSCode配置C语言环境
+title: 【环境配置】Windoes下使用VScode配置C语言环境
 date: 2023-05-09 00:00:00 +0800
 img_path: /assets/img/md
-categories: [记录, 环境搭建]
-tags: [记录, 环境搭建]     # TAG names should always be lowercase
+categories:
+  - 记录
+  - 环境搭建
+tags:
+  - 记录
+  - 环境搭建
 ---
 重装完系统后才发现原来已经折腾过那么多的环境了，重走一遍的时候还是比第一次要顺畅的多的，这大概也是一种成长吧  
-闲话少说，直接步入正题，还是打开我们熟悉的vsc,然后在插件市场搜索C，安装微软官方提供的C/C++插件，也可以自己再选配语法提示插件与美化插件等，这个可以自己再去网上找找相关资料看看大伙儿推荐的宝藏插件  
-为了方便起见，我们不直接去亲自安装gcc等工具链，而是效仿linux的办法用一个统一的包管理器去轻松的完成配置，也就是我们要用到的MSYS2，下载的话可以直接[单击此处](https://github.com/msys2/msys2-installer/releases/download/2022-06-03/msys2-x86_64-20220603.exe)  
+闲话少说，直接步入正题，还是打开我们熟悉的VSCode,然后在插件市场搜索C，安装微软官方提供的C/C++插件，也可以自己再选配语法提示插件与美化插件等，这个可以自己再去网上找找相关资料看看大伙儿推荐的宝藏插件  
+为了方便起见，我们不直接去亲自安装GCC等工具链，而是效仿Linux的办法用一个统一的包管理器去轻松的完成配置，也就是我们要用到的MSYS2，下载的话可以直接[单击此处](https://github.com/msys2/msys2-installer/releases/download/2022-06-03/msys2-x86_64-20220603.exe)  
 一路点点点完成安装后，最后一步我们先**不勾选**直接运行MSYS2，因为其默认的镜像源都在国外，下载速度一言难尽，我们先修改个镜像源  
 分别打开`安装后的主目录\etc\pacman.d`，对该目录下的`mirrorlist.msys`,  
 使用VSCode打开，在第一个`Server = xxx `前添加  
