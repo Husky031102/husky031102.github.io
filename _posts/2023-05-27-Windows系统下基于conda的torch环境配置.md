@@ -69,7 +69,7 @@ conda config --show
 
 ## 安装Torch
 这里我们采用pip包管理器来安装PyTorch，首先仍然是镜像源的替换  
-在用户文件夹下，即`C:\Users\用户`，新建`pip`文件夹，在其中新建`pip.int`文件，添加以下内容  
+在用户文件夹下，即`C:\Users\用户`，新建`pip`文件夹，在其中新建`pip.ini`文件，添加以下内容  
 ```text
 [global]
 index-url = http://mirrors.aliyun.com/pypi/simple/
