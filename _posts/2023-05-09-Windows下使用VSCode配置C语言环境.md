@@ -1,5 +1,5 @@
 ---
-title: 【环境配置】Windoes下使用VScode配置C语言环境
+title: 【环境配置】Windows下使用VScode配置C语言环境
 date: 2023-05-09 00:00:00 +0800
 img_path: /assets/img/md
 categories:

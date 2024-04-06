@@ -67,7 +67,7 @@ sudo apt-get -y install cuda
 完成下载后输入`python`进入Python终端  
 在Python终端输入  
 ```python
-import torch  
+import torch  
 torch.cuda.is_available()
 a = torch.rand((1,1)).cuda()
 print(a)
