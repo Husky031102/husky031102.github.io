@@ -8,6 +8,7 @@ categories:
 tags:
   - 记录
   - 环境搭建
+version: "2.0"
 ---
 考虑到网上有关的教程只涉及到Clion，WSL与ROS中的两两结合，这里介绍一种适用于Clion开发WSL下的ROS的环境配置方法  
 ## Clion配置WSL  

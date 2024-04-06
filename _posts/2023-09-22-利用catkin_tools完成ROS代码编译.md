@@ -8,6 +8,7 @@ categories:
 tags:
   - 记录
   - 工具使用
+version: "2.0"
 ---
 现在介绍一种使用catkin tools来轻松构建ROS代码构建的方法   
 环境为Ubuntu20.04.6 LTS  

@@ -8,6 +8,7 @@ categories:
 tags:
   - 记录
   - 环境搭建
+version: "2.0"
 ---
 按照常规方案，我们需要首先安装Ubuntu做个双系统，这种方法依照以下教程可自行完成    
 [Windows 和 Ubuntu 双系统的安装和卸载](https://www.bilibili.com/video/BV1554y1n7zv/?share_source=copy_web&vd_source=b70d2d828fe907ea790f92edff598b54)  
